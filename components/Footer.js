@@ -4,7 +4,10 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
+       <div class="contact-us">
+            <h2>Contact Us</h2>
+            <p>sandypointmarina@gmail.com</p>
+        </div>
       </footer>
     </>
   )

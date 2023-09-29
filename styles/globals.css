@@ -11,6 +11,10 @@ body {
 }
 
 main {
+  background-image: url(../public/sandy-point.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -19,11 +23,11 @@ main {
   align-items: center;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+.title {
+  width: 80%;
+  background-color: white;
+  margin: 0;
+  padding: 3rem;
 }
 
 .container {
@@ -32,4 +36,8 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.pdf-container {
+  width: min-content;
 }
