@@ -12,10 +12,6 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to Sandy Point Marina!" />
-        <div class="pdf-container"></div>
-          <object data="/spm-business-proposal.pdf" type="application/pdf" width="80%" height="80%">
-      <p>Unable to display PDF file. <a href="/spm-business-proposal.pdf">Download</a> instead.</p>
-    </object>
       </main>
 
       <Footer />
